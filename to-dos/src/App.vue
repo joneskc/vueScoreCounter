@@ -17,7 +17,7 @@
           type="button"
           class="btn btn-success">Completed</button>
         <button
-        @click="removeTodo(i)"
+        @click="removeTodo(currentIndex)"
         type="button"
         class="btn btn-danger ">Remove todo</button>
         <span v-bind:class="{
